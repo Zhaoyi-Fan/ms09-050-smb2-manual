@@ -156,7 +156,7 @@ def poke(rhost):
 
 def main():
     ap = argparse.ArgumentParser(
-        description="MS09-050 / CVE-2009-3103 SMBv2 negotiate RCE (x86)",
+        description="SMBv2 exploit (CVE-2009-3103, Microsoft Security Advisory 975497) - x86",
         epilog=(
             "Examples (authorized lab targets only):\n"
             "  python3 ms09_050.py 192.0.2.10 --check -l 192.0.2.20\n"
